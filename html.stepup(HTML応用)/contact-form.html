@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせはこちらです</title>
+</head>
+<body>
+  <h1>SUBMIT FORM</h1>
+  <form action="#" method="POST">
+    <dl>
+      <dt><label for="username">NAME</label></dt>
+      <dd><input id="username" type="text" name="username"></dd>
+ 
+      <dt><lable >Email adress</lable></dt>
+      <dd><input  type="text" name="email"></dd>
+
+      <dt><lable for="area">PIN</lable></dt>
+      <dd>
+        <select id="area" name="area">
+          <option value="" selected>Select</option>
+          <option value="hokkaido">北海道</option>
+          <option value="tohoku">東北</option>
+          <option value="kanto">関東</option>
+          <option value="chubu">中部</option>
+          <option value="kinki">近畿</option>
+          <option value="shikoku">四国</option>
+          <option value="kyushu">九州</option>
+          <option value="okinawa">沖縄</option>
+        </select>
+      </dd>
+
+      <dt>SEX</dt>
+      <dd>
+        <label><input type="radio" name="gender" value="male">MAN</label>
+        <input type="radio" name="gender" value="female">WOMAN
+      </dd>
+
+      <dt><label for="contents">Complain</label></dt>
+      <dd><textarea id="contents" name="contents"></textarea></dd>
+
+      <dt><label for="privacy">privacy policy</label></dt>
+      <dd><input id="privacy" type="checkbox" name="privacy" value="1"></dd>
+    </dl>
+    <input type="submit" name="submit" value="submit">
+  </form>
+</body>
+</html>
